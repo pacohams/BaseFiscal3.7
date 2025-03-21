@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/bin/Debug/net48
+/LeeXMLDatos/bin/Debug/net48
+/LeeXMLDatos/obj
+/LeeXMLEntidades/bin/Debug/net48
+/LeeXMLEntidades/obj
+/LeeXMLNegocio/bin/Debug/net48
+/LeeXMLNegocio/obj
+/obj
