@@ -1,0 +1,152 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>BaseFiscalXML</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>7</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="LeeXML.Reportes.rptAnaliticaDeduccionesNomina.rdlc" />
+    <None Remove="LeeXML.Reportes.rptAnaliticaPercepcionesNomina.rdlc" />
+    <None Remove="LeeXML.Reportes.rptAuxiliarDeduccionesNominaSAT.rdlc" />
+    <None Remove="LeeXML.Reportes.rptAuxiliarDeduccionesNomina.rdlc" />
+    <None Remove="LeeXML.Reportes.rptAuxiliarPercepcionesNominaSAT.rdlc" />
+    <None Remove="LeeXML.Reportes.rptAuxiliarPercepcionesNomina.rdlc" />
+    <None Remove="LeeXML.Reportes.rptBalanzaComprobacionEgresos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptDeclaracion.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosDetalleDIOT.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoEmitidosSAT.rdlc" />
+    <None Remove="LeeXML.Reportes.rptIndicadoresFiscales.rdlc" />
+    <None Remove="LeeXML.Reportes.rptDeclaracionISRneue.rdlc" />
+    <None Remove="LeeXML.Reportes.rptDeclaracionIVA.rdlc" />
+    <None Remove="LeeXML.Reportes.rptDeclaracionISR.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsConUSD.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosSAT.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIvaPorRFCbatch.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoIVA.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIvaPorRFC.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIVA.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsImportacion.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsNomina.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsEstadoCuenta.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIsFlujo.rdlc" />
+    <None Remove="LeeXML.Reportes.rptImprimeCFDIs.rdlc" />
+    <None Remove="LeeXML.Reportes.rptMovimientosAuxiliarCXPFacturas.rdlc" />
+    <None Remove="LeeXML.Reportes.rptMovimientosAuxiliarCXP.rdlc" />
+    <None Remove="LeeXML.Reportes.rptMovimientosAuxiliarCXPFacturas_OLD.rdlc" />
+    <None Remove="LeeXML.Reportes.rptMovimientosAuxiliarCXP_OLD.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion1Egresos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion2Egresos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion3Egresos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion4Egresos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion5Egresos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion6.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion5.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacionPENDIENTE.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion4.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion3.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion2.rdlc" />
+    <None Remove="LeeXML.Reportes.rptObservacion1.rdlc" />
+    <None Remove="LeeXML.Reportes.rptMovimientosAuxiliarCXCFacturas.rdlc" />
+    <None Remove="LeeXML.Reportes.rptMovimientosAuxiliarCXC.rdlc" />
+    <None Remove="LeeXML.Reportes.rptBalanzaComprobacion.rdlc" />
+    <None Remove="LeeXML.Reportes.rptClientes.rdlc" />
+    <None Remove="LeeXML.Reportes.rptPapelDeTrabajo2Gastos.rdlc" />
+    <None Remove="LeeXML.Reportes.rptPapelDeTrabajo2.rdlc" />
+    <None Remove="LeeXML.Reportes.rptPapelDeTrabajo.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptAnaliticaDeduccionesNomina.rdlc" LogicalName="LeeXML.Reportes.rptAnaliticaDeduccionesNomina.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptAnaliticaPercepcionesNomina.rdlc" LogicalName="LeeXML.Reportes.rptAnaliticaPercepcionesNomina.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptAuxiliarDeduccionesNominaSAT.rdlc" LogicalName="LeeXML.Reportes.rptAuxiliarDeduccionesNominaSAT.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptAuxiliarDeduccionesNomina.rdlc" LogicalName="LeeXML.Reportes.rptAuxiliarDeduccionesNomina.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptAuxiliarPercepcionesNominaSAT.rdlc" LogicalName="LeeXML.Reportes.rptAuxiliarPercepcionesNominaSAT.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptAuxiliarPercepcionesNomina.rdlc" LogicalName="LeeXML.Reportes.rptAuxiliarPercepcionesNomina.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptBalanzaComprobacionEgresos.rdlc" LogicalName="LeeXML.Reportes.rptBalanzaComprobacionEgresos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptDeclaracion.rdlc" LogicalName="LeeXML.Reportes.rptDeclaracion.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosDetalleDIOT.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosDetalleDIOT.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoEmitidosSAT.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoEmitidosSAT.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptIndicadoresFiscales.rdlc" LogicalName="LeeXML.Reportes.rptIndicadoresFiscales.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptDeclaracionISRneue.rdlc" LogicalName="LeeXML.Reportes.rptDeclaracionISRneue.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptDeclaracionIVA.rdlc" LogicalName="LeeXML.Reportes.rptDeclaracionIVA.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptDeclaracionISR.rdlc" LogicalName="LeeXML.Reportes.rptDeclaracionISR.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsConUSD.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsConUSD.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosSAT.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosSAT.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIvaPorRFCbatch.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIvaPorRFCbatch.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoIVA.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoIVA.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIvaPorRFC.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIvaPorRFC.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIVA.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresosIVA.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsImportacion.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsImportacion.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsNomina.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsNomina.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsEstadoCuenta.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsEstadoCuenta.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresos.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujoEgresos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIsFlujo.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIsFlujo.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptImprimeCFDIs.rdlc" LogicalName="LeeXML.Reportes.rptImprimeCFDIs.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptMovimientosAuxiliarCXPFacturas.rdlc" LogicalName="LeeXML.Reportes.rptMovimientosAuxiliarCXPFacturas.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptMovimientosAuxiliarCXP.rdlc" LogicalName="LeeXML.Reportes.rptMovimientosAuxiliarCXP.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptMovimientosAuxiliarCXPFacturas_OLD.rdlc" LogicalName="LeeXML.Reportes.rptMovimientosAuxiliarCXPFacturas_OLD.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptMovimientosAuxiliarCXP_OLD.rdlc" LogicalName="LeeXML.Reportes.rptMovimientosAuxiliarCXP_OLD.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion1Egresos.rdlc" LogicalName="LeeXML.Reportes.rptObservacion1Egresos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion2Egresos.rdlc" LogicalName="LeeXML.Reportes.rptObservacion2Egresos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion3Egresos.rdlc" LogicalName="LeeXML.Reportes.rptObservacion3Egresos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion4Egresos.rdlc" LogicalName="LeeXML.Reportes.rptObservacion4Egresos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion5Egresos.rdlc" LogicalName="LeeXML.Reportes.rptObservacion5Egresos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion6.rdlc" LogicalName="LeeXML.Reportes.rptObservacion6.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion5.rdlc" LogicalName="LeeXML.Reportes.rptObservacion5.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacionPENDIENTE.rdlc" LogicalName="LeeXML.Reportes.rptObservacionPENDIENTE.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion4.rdlc" LogicalName="LeeXML.Reportes.rptObservacion4.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion3.rdlc" LogicalName="LeeXML.Reportes.rptObservacion3.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion2.rdlc" LogicalName="LeeXML.Reportes.rptObservacion2.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptObservacion1.rdlc" LogicalName="LeeXML.Reportes.rptObservacion1.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptMovimientosAuxiliarCXCFacturas.rdlc" LogicalName="LeeXML.Reportes.rptMovimientosAuxiliarCXCFacturas.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptMovimientosAuxiliarCXC.rdlc" LogicalName="LeeXML.Reportes.rptMovimientosAuxiliarCXC.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptBalanzaComprobacion.rdlc" LogicalName="LeeXML.Reportes.rptBalanzaComprobacion.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptClientes.rdlc" LogicalName="LeeXML.Reportes.rptClientes.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptPapelDeTrabajo2Gastos.rdlc" LogicalName="LeeXML.Reportes.rptPapelDeTrabajo2Gastos.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptPapelDeTrabajo2.rdlc" LogicalName="LeeXML.Reportes.rptPapelDeTrabajo2.rdlc" />
+    <EmbeddedResource Include="LeeXML.Reportes.rptPapelDeTrabajo.rdlc" LogicalName="LeeXML.Reportes.rptPapelDeTrabajo.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="LeeXMLEntidades">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\TIIM\Base Fiscal XML\LeeXMLEntidades.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\TIIM\Base Fiscal XML2\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\TIIM\Base Fiscal XML\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\TIIM\Base Fiscal XML2\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="LinqToExcel">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\TIIM\Base Fiscal XML2\LinqToExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="LeeXMLNegocio">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\TIIM\Base Fiscal XML\LeeXMLNegocio.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LinqToExcel" Version="1.11.0" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.3" />
+  </ItemGroup>
+</Project>

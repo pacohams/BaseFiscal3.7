@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="LeeXML.Pantallas\AgregaDeposito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\AgregaImporteDeclarado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\AgregaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\AgregaRetiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\AnalisisComprobantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\AnalisisComprobantesEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\CalculoISR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\CalculoIVA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\Cargando.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\CatalogoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ContraseñaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\CxC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\CxP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\DescargaMasiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\DescargaMasivaLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\DescargaPaginaSAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\DIOT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\Empresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\EstadoDeCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\EstadoDeCuentaEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeCFDIs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeCFDIsEstadoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeCFDIsFlujo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeCFDIsFlujoEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeCFDIsFlujoEgresosBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeCFDIsFlujoEgresosSinTotales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeCFDIsNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeDeclaracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ImprimeIndicadoresFiscales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\IndicadoresFiscales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\InformacionPrecargadaSAT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\LeeXMLs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\LeeXMLsEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\LeeXMLsEgresosSinDM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\Licencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\MuestraDatosFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\MuestraMensajeImportar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\MuestraMensajePaginaCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\MuestraMensajePaginaDescarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\Observaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ObservacionesEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\PapelTrabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\PapelTrabajoEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\RegistroCIEC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\RegistroFIEL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ReportesEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ReportesISR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\SeleccionaCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\SeleccionaFechaMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\SeleccionaRelacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\SeleccionaRelacionEgresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\SeleccionaTipoRevision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\SeleccionEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\SeleccionUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML.Pantallas\ValidaLicencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LeeXML\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
